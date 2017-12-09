@@ -1,4 +1,4 @@
-#purescript-infinite-sequences
+# purescript-infinite-sequences
 
 An infinite list/array/sequence can be thought of as a function from its indices
 to its values: `newtype Sequence a = Sequence (Int -> a)`.
